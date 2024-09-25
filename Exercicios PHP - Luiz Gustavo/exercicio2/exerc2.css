@@ -1,0 +1,89 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto padrão */
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #4CAF50; /* Cor verde */
+    overflow: hidden; /* Limpa flutuação */
+}
+
+.navbar a {
+    float: left; /* Alinha os links à esquerda */
+    display: block; /* Exibe como bloco */
+    color: white; /* Cor do texto da navegação */
+    text-align: center; /* Centraliza o texto */
+    padding: 14px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.navbar a:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
+.navbar a.active {
+    background-color: #3e8e41; /* Cor ativa */
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Preenchimento interno */
+    background-color: white; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block; /* Exibe como bloco */
+    margin-bottom: 5px; /* Margem inferior */
+    font-weight: bold; /* Negrito */
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+select {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Preenchimento */
+    border: 1px solid #ddd; /* Borda suave */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-bottom: 15px; /* Margem inferior */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: border-color 0.3s; /* Transição suave para mudança de cor */
+}
+
+/* Estilo de foco nos campos de entrada */
+input[type="text"]:focus,
+select:focus {
+    border-color: #4CAF50; /* Mudança na borda ao focar */
+    outline: none; /* Remove a borda padrão */
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    padding: 10px; /* Preenchimento */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+/* Estilo do botão ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
